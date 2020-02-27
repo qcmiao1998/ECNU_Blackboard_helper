@@ -1,0 +1,26 @@
+{
+    "name": "大夏学堂批量下载",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "批量下载大夏学堂中上传的文件",
+    "browser_action": {
+        "default_icon": "ecnu.png"
+    },
+    "permissions": [
+        "background",
+        "downloads"
+    ],
+    "background": {
+        "page": "background.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://elearning.ecnu.edu.cn/webapps/blackboard/content/listContent.jsp*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
