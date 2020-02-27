@@ -2,6 +2,10 @@
 
 var contents = document.getElementById("content_listContainer").children;
 for (const item of contents) {
+    let oimg = item.getElementsByClassName('item_icon')[0];
+    if (oimg.alt == "内容文件夹") {
+        continue;
+    }
     let checkBox = document.createElement("input");
     checkBox.setAttribute("type", "checkbox");
     checkBox.className = "selector";
