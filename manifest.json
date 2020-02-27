@@ -1,8 +1,8 @@
 {
-    "name": "大夏学堂批量下载",
+    "name": "大夏学堂助手",
     "manifest_version": 2,
     "version": "1.0",
-    "description": "批量下载大夏学堂中上传的文件",
+    "description": "可批量下载大夏学堂中的文件",
     "browser_action": {
         "default_icon": "ecnu.png"
     },
