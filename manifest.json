@@ -3,7 +3,6 @@
     "manifest_version": 2,
     "version": "1.2",
     "description": "可批量下载大夏学堂中的文件",
-    "default_locale": "zh-CN",
     "icons": {
         "16": "ecnu16.png",
         "48": "ecnu48.png",
