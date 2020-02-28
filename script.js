@@ -28,7 +28,7 @@ toolbar.appendChild(dlbutton);
 document.getElementById("pageTitleDiv").appendChild(toolbar);
 
 
-var selectors = document.all('selector');
+var selectors = document.getElementsByClassName('selector');
 selectall.addEventListener('click', function () {
 
     if (selectors.length == undefined) {//一个选项时
