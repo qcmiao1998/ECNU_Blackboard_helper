@@ -66,7 +66,7 @@ dlbutton.addEventListener('click', function () {
             if (item.getElementsByClassName("selector")[0].checked == true) {
                 var atags = item.getElementsByTagName('a');
                 for (const atag of atags) {
-                    if (!atag.classList.contains("cmimg-hide")) {
+                    if (!atag.classList.contains("cmimg-hide") && atag.href.indexOf("/webapps/") == -1) {
                         dllist.push([atag.href, atag.innerText]);
                     }
                 }
