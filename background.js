@@ -4,7 +4,8 @@ chrome.runtime.onMessage.addListener(
         for (const file of dllist) {
             if (file[0].indexOf("https://elearning.ecnu.edu.cn/") != -1) {
                 chrome.downloads.download({
-                    url: file[0]
+                    url: file[0],
+                    saveAs: true
                 });
             } else {
                 chrome.downloads.download({
