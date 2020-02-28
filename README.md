@@ -8,6 +8,6 @@ YY 移植的 Firefox 版插件见 [iamSmallY/ecnu_blackboard_helper_firefox](htt
 
 * 打开浏览器, 在地址栏输入 `chrome://extensions/`
 * 打开开发者模式
-* 将下载的 `.crx` 格式的插件重命名为 `.zip` 并解压到任意的文件夹 (建议直接下载 `.zip` 格式的安装包)
+* 下载 `.zip` 格式的安装包, 并解压
 * 在 Chrome 的插件管理器中, 点击 加载已解压的扩展程序 选择刚才解压到的文件夹. 即可完成安装
   
