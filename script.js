@@ -70,6 +70,15 @@ dlbutton.addEventListener('click', function () {
                         dllist.push([atag.href, atag.innerText]);
                     }
                 }
+
+                var iframes = item.getElementsByTagName("iframe");
+                for (const iframe of iframes) {
+                    var standalonevideos = iframe.contentDocument.getElementsByTagName('video');
+                    for (const video of standalonevideos) {
+                        dllist.push([video.src, item.getElementsByClassName("item clearfix")[0].innerText]);
+                    }
+                }
+
             }
         }
 
