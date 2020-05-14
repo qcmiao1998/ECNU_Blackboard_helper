@@ -26,6 +26,20 @@
             "js": [
                 "script.js"
             ]
+        },
+        {
+            "matches":[
+                "https://elearning.ecnu.edu.cn/webapps/bb-hdsfdx_resources-BBLEARN/media/play*"
+            ],
+            "js":[
+                "videojs/video.js",
+                "iframe.js"
+            ],
+            "css":[
+                "videojs/video-js.css"
+            ],
+            "run_at": "document_end",
+            "all_frames":true
         }
     ]
 }
